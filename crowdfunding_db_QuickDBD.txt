@@ -25,8 +25,13 @@ goal INT
 pledged INT 
 outcome VARCAHR(25) 
 backers_count INT
+<<<<<<< HEAD
 country VARCHAR(2) 
 currency VARCHAR(3) 
+=======
+country CHAR(2) 
+currency CHAR(3) 
+>>>>>>> 6ada0b3397d1cc605ff305d1c594c1898fa5ffb5
 launch_date DATE 
 end_date DATE 
 category_id VARCHAR(5) FK >- category.category_id
