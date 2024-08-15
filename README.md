@@ -9,24 +9,23 @@ Additionally, the cleaned data is being created into schema, and it can be impor
 
 For inspection the Crowdfunding Database, please use the csv files in Resources folder to mannually import into a relational database
 Or using the database built-in import from schema to load.
-For SQL table creation and data import:
+For SQL table creation and data import of the corresponding csv files:
 please follow extactly the order of the crowdfunding_db_schema.sql to ensure the correct and successful data import
 1: category, 2:subcategory, 3:contacts, 4:campaigns
 
-##Content:
+## Content:
 The repo contains Resources folder for all the original excel files and the extracted csv files for inspection and SQL database import.
 The .ipynb notebook contains all source code for the project.
 The .txt file for using quickdbd when skeching the visual ERD.
 The ERD diagram
 The SQL schema file for table creation.
 
-##Group 3 allocations:
+## Group 3 allocations:
 Ziyue Zhou (Jacky): group leader
  - repository creation, category, subcategory, campaign dataframes creation and csv file export
+
 Yuqi (Freya) Huang: contributor group member
  - Create the Crowdfunding database, ERD creation, Schema craetion, SQL file creation.
+
 Lim Hung (Hansen): contributor group member
  - Option 1 entire part (contacts dataframe creation and csv file export)
-
-
-
